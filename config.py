@@ -57,12 +57,12 @@ GCAST_BLACKLIST = [
 
 class Config:
     # Telegram App KEY and HASH
-    API_KEY = int(getenv("API_KEY") or 0)
-    API_HASH = str(getenv("API_HASH") or None)
+    API_KEY = int(getenv("MIIBCgKCAQEAyMEdY1aR+sCR3ZSJrtztKTKqigvO/vBfqACJLZtS7QMgCGXJ6XIRyy7mx66W0/sOFa7/1mAZtEoIokDP3ShoqF4fVNb6XeqgQfaUHd8wJpDWHcR2OFwvplUUI1PLTktZ9uW2WE23b+ixNwJjJGwBDJPQEQFBE+vfmH0JP503wr5INS1poWg/j25sIWeYPHYeOrFp/eXaqhISP6G+q2IeTaWTXpwZj4LzXq5YOpk4bYEQ6mvRq7D1aHWfYmlEGepfaYR8Q0YqvvhYtMte3ITnuSJs171+GDqpdKcSwHnd6FudwGO4pcCOj4WcDuXc2CTHgH8gFTNhp/Y8/SpDOhvn9QIDAQAB") or 0)
+    API_HASH = str(getenv("44b61271d589b2975edcf12443c7c8c3") or None)
 
     # Inline bot helper
-    BOT_TOKEN = getenv("BOT_TOKEN", None)
-    BOT_USERNAME = getenv("BOT_USERNAME", None)
+    BOT_TOKEN = getenv("7553937177:AAEbgSDeZ1koyAfLd48XkvWEaUTpz3BarDw", None)
+    BOT_USERNAME = getenv("ubot_sall_bot", None)
 
     OPENAI_API_KEY = getenv("OPENAI_API_KEY", None)
 
@@ -108,8 +108,8 @@ class Config:
     WATCH_COUNTRY = getenv("WATCH_COUNTRY", "ID")
 
     # Github Credentials for updater and Gitupload.
-    GIT_REPO_NAME = getenv("GIT_REPO_NAME", None)
-    GITHUB_ACCESS_TOKEN = getenv("GITHUB_ACCESS_TOKEN", None)
+    GIT_REPO_NAME = getenv("Ayiin-UserBot", None)
+    GITHUB_ACCESS_TOKEN = getenv("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", None)
 
     # Custom (forked) repo URL for updater.
     UPSTREAM_REPO_URL = getenv("UPSTREAM_REPO_URL", "https://github.com/AyiinXd/Ayiin-Userbot.git")
